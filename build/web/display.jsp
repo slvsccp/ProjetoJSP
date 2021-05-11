@@ -4,7 +4,9 @@
     Author     : matheus
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<%@page import="Suporte.Display"%>
+<%@page contentType="text/html" pageEncoding="UTF-8" errorPage="TratarErro.jsp"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -44,6 +46,5 @@
                     </tr>
                 </tbody>
             </table>
-
     </body>
 </html>

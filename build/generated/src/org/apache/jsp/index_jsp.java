@@ -32,7 +32,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     try {
       response.setContentType("text/html;charset=UTF-8");
       pageContext = _jspxFactory.getPageContext(this, request, response,
-      			null, true, 8192, true);
+      			"TratarErro.jsp", true, 8192, true);
       _jspx_page_context = pageContext;
       application = pageContext.getServletContext();
       config = pageContext.getServletConfig();
@@ -43,7 +43,6 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\n");
       out.write("\n");
-      out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
       out.write("    <head>\n");
@@ -52,7 +51,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    </head>\n");
       out.write("    <body>\n");
       out.write("        <h1>Formulário JSP<h1>\n");
-      out.write("                <form name=\"formulario\" action=\"display.jsp\" method=\"POST\">\n");
+      out.write("                <form name=\"formulario\" action=\"display1.jsp\" method=\"POST\">\n");
       out.write("            <table border=\"0\">\n");
       out.write("                <tbody>\n");
       out.write("                    <tr>\n");
